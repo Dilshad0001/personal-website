@@ -1,0 +1,210 @@
+.main {
+    background-color: rgb(2, 19, 19);
+    background-image: url(https://img.freepik.com/free-vector/5g-networking-technology-background-vector-with-blue-digital-line_53876-126043.jpg);
+    background-size: cover;
+}   
+
+.home {
+    background-color: rgb(1, 11, 4);
+    min-height: 100vh;
+}
+
+.navbar {
+    background-color: rgb(161, 156, 155);
+    color: aliceblue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
+}
+.nav-item{
+    color: aliceblue;
+}
+.id {
+    background: rgb(9, 9, 38);
+    padding: 100px 0; 
+}
+
+.photo {
+    border-radius: 50%;
+    width: 100%;
+    max-width: 200px;
+}
+
+.aboutp {
+    background-color: rgb(2, 0, 4);
+    padding: 40px 0;
+    color: white;
+}
+
+.about {
+    width: 60%;
+    background-image: url(/images/black-background-geometric-gradient-design_677411-2886.avif);
+    background-size: cover; 
+}
+
+@media (max-width: 768px) {
+    .about {
+        width: 100%; 
+    }
+}
+
+.skillp {
+    background-color: rgb(12, 11, 10);
+    padding: 40px 0;
+    background-image: url(https://img.freepik.com/free-vector/5g-networking-technology-background-vector-with-blue-digital-line_53876-126043.jpg);
+    background-size: cover;
+    width: 60%;
+} 
+
+.skill {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+.skilla, .skillb {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px; 
+}
+
+.skilla li, .skillb li {
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    background-color: rgb(12, 12, 17);
+    transition: background-color 0.3s;
+}
+
+.skilla li:hover, .skillb li:hover {
+    background-color: rgb(9, 99, 129); 
+}
+
+.projectp {
+    background-color: rgb(11, 16, 11);
+    padding: 40px 0;
+    background-image: url(https://img.freepik.com/free-vector/wave-background-abstract-gradient-design_483537-3688.jpg);
+    background-size: cover;
+    width: 80%;
+    display: flex;
+}
+
+.projecth {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+.project1, .project2 {
+    background-color: rgb(36, 36, 106);
+    color: white;
+    width: 300px; 
+    margin: 10px; 
+    padding: 20px;
+    transition: background-color 0.3s; 
+}
+
+.project1:hover, .project2:hover {
+    background-color: rgb(34, 104, 49); 
+}
+
+.contactp {
+    background-color: rgb(5, 2, 1);
+    padding: 40px 0;
+    text-align: center;
+    background-image: url(https://e0.pxfuel.com/wallpapers/329/765/desktop-wallpaper-web-design-dark-developer-thumbnail.jpg);
+    background-size: cover;
+}
+
+.contact input,
+.contact textarea {
+    width: 80%; 
+    max-width: 400px; 
+}
+
+.contact button {
+    margin-top: 10px; 
+}
+
+
+
+
+
+.projectp {
+    background-color: rgb(56, 220, 37);
+    padding: 60px 0; 
+    background-image: url(https://img.freepik.com/free-vector/wave-background-abstract-gradient-design_483537-3688.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.projecth {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+
+.project1, .project2 {
+    position: relative; 
+    overflow: hidden; 
+    width: 300px; 
+    height: 200px; 
+    margin: 20px; 
+    background-color: #34495e; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.5s, box-shadow 0.5s;
+}
+
+.project1 img, .project2 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px; 
+    transition: transform 0.5s; 
+}
+
+.project1:hover, .project2:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); 
+}
+
+.project1:hover img, .project2:hover img {
+    transform: scale(1.1); 
+}
+
+.project-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+ 
+}
+
+.project1:hover .project-overlay, .project2:hover .project-overlay {
+    opacity: 1; 
+}
+
+.project-overlay h4, .project-overlay p {
+    color: white;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.project-overlay h4 {
+    font-size: 1.5rem;
+}
+
+.project-overlay p {
+    font-size: 1rem;
+}
